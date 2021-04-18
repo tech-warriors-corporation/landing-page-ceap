@@ -83,6 +83,8 @@
 - portal do voluntariado
 - escrever os textos em forma de piramide invertida
 - fazer revisão de português sempre
+- 3 praticas de ux writing
+- 3 praticas de acessibildiade
 
 
 
@@ -90,7 +92,7 @@
 - amarelo: #f19500 (um pouco mais fraco #FFA20B)
 - verde: #7eb928
 - azul: #03afe6
-- roxo: #5a509d
+- roxo: #5a509d (mais escuro #5348B5)
 - preto: #1d1d1c
 - branco: #ffffff
 - cinza: #526270 (un pouco mais fraco #6C7B87)
@@ -100,6 +102,11 @@
 *fontes:
 - textos normais: "Raleway",sans-serif
 - titulo/botoes e partes especiais: "Linotte",sans-serif
+
+
+
+*video:
+- https://www.youtube.com/watch?v=A-ZzfpCPl6Y
 
 
 
