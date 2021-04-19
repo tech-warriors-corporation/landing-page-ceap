@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "vars.css";
 @import "menu.css";
+@import "home.css";
+@import "button.css";
 
 html, body{
     font-size: 16px;
@@ -16,6 +18,8 @@ html, body{
     max-width: var(--max-width);
     margin: 0 auto;
     width: 100%;
+    padding-left: var(--space);
+    padding-right: var(--space);
 }
 
 .header{

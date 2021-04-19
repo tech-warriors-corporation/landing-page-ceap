@@ -1,0 +1,25 @@
+.button{
+    padding: var(--space) calc(var(--space) * 1.5);
+    color: var(--white);
+    font-weight: 600;
+    font-family: var(--font-title);
+    transition: background-color var(--ms);
+    width: fit-content;
+    border-radius: var(--small-radius);
+}
+
+.button--green{
+    background-color: var(--green);
+}
+
+.button--green:hover, .button--green:active, .button--green:focus{
+    background-color: var(--yellow);
+}
+
+.button--yellow{
+    background-color: var(--yellow);
+}
+
+.button--yellow:hover, .button--yellow:active, .button--yellow:focus{
+    background-color: var(--purple);
+}

@@ -6,6 +6,8 @@
     --dark-purple: #5348B5;
     --black: #1d1d1c;
     --white: #ffffff;
+    --grey: #526270;
+    --light-grey: #6C7B87;
     --border: 2px solid;
     --font-title: 'Nunito', sans-serif;
     --max-width: 1200px;
@@ -13,4 +15,7 @@
     --small-radius: 15px;
     --space: 16px;
     --half-space: calc(var(--space) / 2);
+    --triple-space: calc(var(--space) * 3);
+    --height-menu: 56px;
+    --ms: .25s;
 }
