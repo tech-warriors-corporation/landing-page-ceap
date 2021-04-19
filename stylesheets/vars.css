@@ -1,0 +1,16 @@
+:root{
+    --yellow: #f19500;
+    --light-yellow: #FFA20B;
+    --green: #7eb928;
+    --purple: #5a509d;
+    --dark-purple: #5348B5;
+    --black: #1d1d1c;
+    --white: #ffffff;
+    --border: 2px solid;
+    --font-title: 'Nunito', sans-serif;
+    --max-width: 1200px;
+    --large-radius: 25px;
+    --small-radius: 15px;
+    --space: 16px;
+    --half-space: calc(var(--space) / 2);
+}
