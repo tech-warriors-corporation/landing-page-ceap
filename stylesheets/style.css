@@ -4,6 +4,7 @@
 @import "home.css";
 @import "button.css";
 @import "about.css";
+@import "partners.css";
 
 html, body{
     font-size: 16px;
