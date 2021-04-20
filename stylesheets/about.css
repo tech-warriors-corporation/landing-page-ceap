@@ -1,0 +1,35 @@
+.about{
+    background-color: var(--blue);
+    padding: var(--triple-space) 0;
+    position: relative;
+}
+
+.about__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: var(--double-space);
+}
+
+.about__item{
+    padding: var(--half-space) var(--space);
+    color: var(--white);
+    box-sizing: border-box;
+    border: var(--border) var(--white);
+    border-radius: var(--large-radius);
+    transition: transform var(--ms);
+}
+
+.about__item:hover, .about__item:focus, .about__item:active{
+    transform: scale(1.025);
+}
+
+.about__item-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: var(--font-title);
+}
+
+.about__item-list{
+    list-style: circle;
+    padding-left: 20px;
+}

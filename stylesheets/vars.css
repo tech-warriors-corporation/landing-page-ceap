@@ -2,6 +2,7 @@
     --yellow: #f19500;
     --light-yellow: #FFA20B;
     --green: #7eb928;
+    --blue: #03afe6;
     --purple: #5a509d;
     --dark-purple: #5348B5;
     --black: #1d1d1c;
@@ -15,6 +16,7 @@
     --small-radius: 15px;
     --space: 16px;
     --half-space: calc(var(--space) / 2);
+    --double-space: calc(var(--space) * 2);
     --triple-space: calc(var(--space) * 3);
     --height-menu: 56px;
     --ms: .25s;
