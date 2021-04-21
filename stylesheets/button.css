@@ -6,6 +6,8 @@
     transition: background-color var(--ms);
     width: fit-content;
     border-radius: var(--small-radius);
+    border: 0;
+    cursor: pointer;
 }
 
 .button--green{
