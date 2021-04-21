@@ -11,7 +11,7 @@
 }
 
 .about__item{
-    padding: var(--half-space) var(--space);
+    padding: var(--space);
     color: var(--white);
     box-sizing: border-box;
     border: var(--border) var(--white);
@@ -27,6 +27,7 @@
     font-size: 1.25rem;
     font-weight: 600;
     font-family: var(--font-title);
+    margin-bottom: var(--half-space);
 }
 
 .about__item-list{
