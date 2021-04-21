@@ -1,8 +1,8 @@
 .home{
     display: flex;
     align-items: center;
-    padding-top: var(--triple-space);
-    padding-bottom: var(--triple-space);
+    padding-top: var(--large-space);
+    padding-bottom: var(--large-space);
     box-sizing: border-box;
     justify-content: space-around;
     margin-top: var(--height-menu) !important;
@@ -21,7 +21,7 @@
 }
 
 .home__img{
-    margin-left: var(--triple-space);
+    margin-left: var(--large-space);
     width: 200px;
 }
 

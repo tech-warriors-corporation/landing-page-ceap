@@ -17,7 +17,7 @@
     --space: 16px;
     --half-space: calc(var(--space) / 2);
     --double-space: calc(var(--space) * 2);
-    --triple-space: calc(var(--space) * 3);
+    --large-space: calc(var(--space) * 4);
     --height-menu: 56px;
     --ms: .25s;
 }

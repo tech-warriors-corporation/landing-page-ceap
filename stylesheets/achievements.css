@@ -1,4 +1,55 @@
 .achievements{
     background-color: var(--green);
-    padding: var(--triple-space) 0;
+    padding: var(--large-space) 0;
+}
+
+.achievements__title-content{
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: var(--font-title);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--space);
+}
+
+.achievements__stamps{
+    display: flex;
+    justify-content: space-around;
+}
+
+.achievements__stamps-img{
+    width: 100px;
+}
+
+.achievements__card:not(:last-child){
+    margin-bottom: var(--double-space);
+}
+
+.achievements__onu{
+    --width-card-onu: 120px;
+
+    display: grid;
+    grid-gap: var(--double-space);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.achievements__onu-fig{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(var(--width-card-onu) + 80px);
+    text-align: center;
+    color: var(--white);
+    margin: 0 auto;
+}
+
+.achievements__onu-img{
+    width: var(--width-card-onu);
+    border-radius: var(--small-radius);
+    margin-bottom: 8px;
+    transition: transform var(--ms);
+}
+
+.achievements__onu-img:hover, .achievements__onu-img:focus, .achievements__onu-img:active{
+    transform: rotateZ(4deg);
 }

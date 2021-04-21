@@ -1,6 +1,6 @@
 .about{
     background-color: var(--blue);
-    padding: var(--triple-space) 0;
+    padding: var(--large-space) 0;
     position: relative;
 }
 

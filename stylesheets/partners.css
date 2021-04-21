@@ -1,10 +1,10 @@
 .partners{
     background-color: var(--white);
-    padding: var(--triple-space) 0;
+    padding: var(--large-space) 0;
     position: relative;
 }
 
-.partners__title{
+.partners .partners__title{
     margin-bottom: var(--double-space);
     flex-basis: 100%;
 }
@@ -23,8 +23,8 @@
     flex-wrap: wrap;
 }
 
-.partners__sec > *:not(:last-child){
-    margin-bottom: var(--triple-space);
+.partners__sec > *:not(:last-child):not(.partners__title){
+    margin-bottom: var(--double-space);
 }
 
 .partners__txt{
@@ -75,7 +75,7 @@
 }
 
 .partners__list-img{
-    width: 120px;
+    width: 80px;
 }
 
 .partners__list-content{
@@ -84,7 +84,7 @@
     border-radius: var(--large-radius);
     border: var(--border) var(--yellow);
     margin-bottom: var(--half-space);
-    height: 140px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
