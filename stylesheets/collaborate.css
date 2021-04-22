@@ -22,12 +22,8 @@
     width: 100%;
 }
 
-.collaborate__label{
-    font-weight: 600;
-}
-
 .collaborate__label::after{
-    content: "*";
+    content: " *";
 }
 
 .collaborate__input{
@@ -38,5 +34,5 @@
 }
 
 .collaborate__input.collaborate__input--textarea{
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }

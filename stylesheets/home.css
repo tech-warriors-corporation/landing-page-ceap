@@ -29,8 +29,16 @@
     font-size: 2rem;
     font-weight: 700;
     color: var(--yellow);
+    line-height: 1;
+    font-family: var(--font-title);
 }
 
 .home__txt{
     color: var(--grey);
+}
+
+@media(max-width: 800px){
+    .home__img{
+        display: none;
+    }
 }

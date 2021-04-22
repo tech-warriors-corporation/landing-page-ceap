@@ -1,6 +1,6 @@
 .footer__principal{
     background-color: var(--purple);
-    padding: var(--large-space) 0;
+    padding: var(--double-space) 0;
 }
 
 .footer__copyright{
@@ -10,7 +10,7 @@
 .footer__copyright-txt{
     text-align: center;
     color: var(--white);
-    padding: var(--space) 0;
+    padding: var(--double-space) 0;
 }
 
 .footer__principal-content{
@@ -57,4 +57,58 @@
 
 .footer__principal-link-img{
     width: 30px;
+}
+
+.footer__card{
+    padding: var(--double-space) 0;
+}
+
+.footer__card--stamp{
+    background-color: var(--light-purple);
+}
+
+.footer__card--partners{
+    background-color: var(--more-light-purple);
+}
+
+.footer__title-content{
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--white);
+    margin-bottom: var(--double-space);
+}
+
+.footer__stamps, .footer__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__list-img, .footer__stamps-img{
+    width: 80px;
+    margin: var(--half-space);
+}
+
+.footer__list-content{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 1200px){
+    .footer__principal-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer__principal-list-link{
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+@media(max-width: 700px){
+    .footer__stamps, .footer__list{
+        flex-direction: column;
+        align-items: center;
+    }
 }

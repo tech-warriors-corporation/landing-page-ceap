@@ -11,7 +11,7 @@
 
 html, body{
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--white);
     scroll-behavior: smooth;
 }
@@ -26,6 +26,7 @@ html, body{
     width: 100%;
     padding-left: var(--space);
     padding-right: var(--space);
+    box-sizing: border-box;
 }
 
 .header{
@@ -36,6 +37,7 @@ html, body{
     font-size: 1.5rem;
     font-weight: 600;
     font-family: var(--font-title);
+    line-height: 1;
 }
 
 .title--black, .subtitle--black{

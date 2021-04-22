@@ -10,8 +10,7 @@
     left: 0;
     top: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.64);
-    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 1);
     z-index: 1;
 }
 
@@ -30,6 +29,7 @@
 .menu__item{
     font-size: 1rem;
     color: var(--yellow);
+    line-height: 1;
     font-family: var(--font-title);
 }
 
@@ -52,3 +52,18 @@
     text-decoration: underline;
 }
 
+
+@media(max-width: 600px){
+    .menu__item{
+        font-size: .75rem;
+    }
+
+    .menu__item:not(:first-child){
+        margin-left: var(--half-space);
+    }
+
+    .menu__item:not(:first-child):not(:nth-child(2)){
+        padding: 0;
+        border: 0;
+    }
+}

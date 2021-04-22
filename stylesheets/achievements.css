@@ -9,16 +9,8 @@
     font-family: var(--font-title);
     color: var(--white);
     text-align: center;
+    line-height: 1;
     margin-bottom: var(--space);
-}
-
-.achievements__stamps{
-    display: flex;
-    justify-content: space-around;
-}
-
-.achievements__stamps-img{
-    width: 100px;
 }
 
 .achievements__card:not(:last-child){
@@ -29,7 +21,7 @@
     --width-card-onu: 120px;
 
     display: grid;
-    grid-gap: var(--double-space);
+    grid-gap: var(--large-space) 0;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -52,4 +44,20 @@
 
 .achievements__onu-img:hover, .achievements__onu-img:focus, .achievements__onu-img:active{
     transform: rotateZ(4deg);
+}
+
+.achievements__onu-cap{
+    font-size: .9rem;
+}
+
+@media(max-width: 1000px){
+    .achievements__onu{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px){
+    .achievements__onu{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

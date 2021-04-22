@@ -27,10 +27,23 @@
     font-size: 1.25rem;
     font-weight: 600;
     font-family: var(--font-title);
+    line-height: 1;
     margin-bottom: var(--half-space);
 }
 
 .about__item-list{
     list-style: circle;
     padding-left: 20px;
+}
+
+@media(max-width: 1000px){
+    .about__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px){
+    .about__grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

@@ -5,6 +5,8 @@
     --blue: #03afe6;
     --purple: #5a509d;
     --dark-purple: #5348B5;
+    --light-purple: #6358ab;
+    --more-light-purple: #7366c8;
     --black: #1d1d1c;
     --white: #ffffff;
     --grey: #526270;
@@ -12,8 +14,8 @@
     --border: 2px solid;
     --font-title: 'Nunito', sans-serif;
     --max-width: 1000px;
-    --large-radius: 25px;
-    --small-radius: 15px;
+    --large-radius: 10px;
+    --small-radius: 5px;
     --space: 16px;
     --half-space: calc(var(--space) / 2);
     --double-space: calc(var(--space) * 2);

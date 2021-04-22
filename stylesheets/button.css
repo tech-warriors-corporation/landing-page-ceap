@@ -1,8 +1,9 @@
 .button{
-    padding: var(--space) calc(var(--space) * 1.5);
+    padding: var(--space) var(--double-space);
     color: var(--white);
     font-weight: 600;
     font-family: var(--font-title);
+    line-height: 1;
     transition: background-color var(--ms);
     width: fit-content;
     border-radius: var(--small-radius);
