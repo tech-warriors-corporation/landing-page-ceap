@@ -60,7 +60,7 @@
 }
 
 .footer__card{
-    padding: var(--double-space) 0;
+    padding: var(--space) 0;
 }
 
 .footer__card--stamp{
@@ -85,7 +85,6 @@
 
 .footer__list-img, .footer__stamps-img{
     width: 80px;
-    margin: var(--half-space);
 }
 
 .footer__list-content{
@@ -110,5 +109,9 @@
     .footer__stamps, .footer__list{
         flex-direction: column;
         align-items: center;
+    }
+
+    .footer__list-item:not(:last-child), .footer__stamps-item:not(:last-child){
+        margin-bottom: var(--double-space);
     }
 }

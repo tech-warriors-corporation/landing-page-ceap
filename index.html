@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR"> <!-- uso do atributo lang #paratodosverem -->
     <head>
-        <title>Colabore - CEAP</title>
+        <title>Colabore - CEAP</title> <!-- uso do elemento title para indicar em que página o usuário esta #paratodosverem -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- uso do elemento meta com o viewport para a parte responsiva #paratodosverem -->
         <meta name="description" content="Organização não governamental, sem fins lucrativos, fundada em 1985, que atua no modelo de escola profissionalizante gratuita, e oferece anualmente cursos de formação e qualificação profissional.">
         <meta name="keywords" content="educação, tecnologia, aprender, CEAP, estudante, aluno, jovem, família">
         <meta name="author" content="Tech Warriors">
@@ -23,7 +23,7 @@
                     <ul class="menu__list">
                         <li class="menu__item">
                             <a href="#home" target="_self" rel="noopener noreferrer" aria-label="Você será encaminhado para a parte da home">
-                                <img class="menu__img" src="./assets/imgs/header-logo.webp" alt="Logo da CEAP">
+                                <img class="menu__img" src="./assets/imgs/header-logo.webp" alt="Logo do CEAP">
                             </a>
                         </li>
                         <li class="menu__item"><a class="menu__link" href="#sobre" target="_self" rel="noopener noreferrer" aria-label="Você será encaminhado para a parte do sobre">Sobre</a></li>
@@ -37,7 +37,7 @@
             <div class="content home">
                 <section class="home__content">
                     <h1 class="home__title">Centro Educacional <br>Assistencial Profissionalizante</h1>
-                    <p class="home__txt">Colabore com o desenvolvimento humano. Através dessa instituição catalisadora de jovens a sua força promove o impacto social e coletivo.</p>
+                    <p class="home__txt">Colabore com o desenvolvimento humano, a sua força promove o impacto social e coletivo.</p>
                     <a class="button button--green" href="#colabore" target="_self" rel="noopener noreferrer" aria-label="Você será encaminhado para a parte do formulário de colabore">Colabore</a><!-- uso do atributo aria-label e botão com bastante espaçamento para clique #paratodosverem -->
                 </section>
                 <img src="./assets/imgs/header-ideas.webp"
@@ -52,8 +52,17 @@
                 <div class="content">
                     <section class="about__sec">
                         <h2 class="title title--white">Sobre</h2>
-                        <p class="subtitle subtitle--white">A CEAP é uma instituição  situada na periferia de São Paulo que promove a melhoria da condição de vida das famílias necessitadas. Através de uma educação de base reconhecida pelo MEC os alunos podem no seus contra turno aprimorar seus conhecimentos técnicos para ingresso no mercado de trabalho, com o auxílio do conselho de gestores a organização trata seus alunos como pessoas únicas que pensam em inovação, objetivos e se tornam protagonistas de um futuro melhor.</p>
+                        <p class="subtitle subtitle--white">A CEAP é uma ONG focada em educação, situada na periferia de Pedreira em São Paulo, promove a melhoria da condição de vida de famílias. Sua educação é reconhecida pelo MEC. A organização trata seus alunos como pessoas únicas que pensam em inovação e objetivos, para se tornarem protagonistas de um futuro melhor.</p>
                         <ul class="about__grid">
+                            <li>
+                                <article class="about__item">
+                                    <h3 class="about__item-title">Público</h3>
+                                    <ul class="about__item-list">
+                                        <li>Estudantes de 10 a 18 anos</li>
+                                        <li>Família dos jovens</li>
+                                    </ul>
+                                </article>
+                            </li>
                             <li>
                                 <article class="about__item">
                                     <h3 class="about__item-title">Infraestrutura</h3>
@@ -66,21 +75,21 @@
                             </li>
                             <li>
                                 <article class="about__item">
-                                    <h3 class="about__item-title">Público</h3>
+                                    <h3 class="about__item-title">Dados</h3>
                                     <ul class="about__item-list">
-                                        <li>Estudantes de 10 a 18 anos, que se encontram em situação de alta vulnerabilidade social</li>
-                                        <li>Família dos jovens</li>
+                                        <li>Fundada em 1985</li>
+                                        <li>ONG sem fins lucrativos</li>
+                                        <li>Mais de 1.100 alunos atendidos anualmente</li>
                                     </ul>
                                 </article>
                             </li>
                             <li>
                                 <article class="about__item">
-                                    <h3 class="about__item-title">Dados</h3>
+                                    <h3 class="about__item-title">Educação</h3>
                                     <ul class="about__item-list">
-                                        <li>81º posição no IDH entre os 96 distritos de São Paulo</li>
-                                        <li>Fundada em 1985</li>
-                                        <li>ONG sem fins lucrativos</li>
-                                        <li>Mais de 1.100 alunos atendidos anualmente</li>
+                                        <li>Cursos gratuitos, remotos, intensivos e profissionalizantes</li>
+                                        <li>Foco em educar toda família</li>
+                                        <li>Ensinamentos tecnológicos, éticos, financeiros e comportamentais</li>
                                     </ul>
                                 </article>
                             </li>
@@ -92,11 +101,7 @@
                                         <li>Feira de profissões</li>
                                         <li>Hackatons</li>
                                         <li>Aluno espelho</li>
-                                        <li>Programas</li>
                                         <li>Visita à empresas e parceiros</li>
-                                        <li>Palestras</li>
-                                        <li>Avaliações</li>
-                                        <li>Eventos</li>
                                         <li>Mentoria com profissionais</li>
                                     </ul>
                                 </article>
@@ -107,22 +112,8 @@
                                     <ul class="about__item-list">
                                         <li>Formação humana dos indivíduos</li>
                                         <li>Gerar oportunidade para desenvolvimento das crianças e adolescentes</li>
-                                        <li>Ser referência</li>
                                         <li>Ajudar os pais dos beneficiários com a missão de educar os filhos e serem os protagonistas dela</li>
                                         <li>Transformar a visão do aluno de como a vida deve ser encarada</li>
-                                    </ul>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="about__item">
-                                    <h3 class="about__item-title">Educação</h3>
-                                    <ul class="about__item-list">
-                                        <li>Cursos gratuitos</li>
-                                        <li>Cursos remotos durante a pandemia</li>
-                                        <li>Cursos intensivos e profissionalizantes</li>
-                                        <li>Envolvimento de toda a família</li>
-                                        <li>Ensinamentos tecnológicos, éticos, financeiros, comportamental</li>
-                                        <li>Educação personalizada com atendimento individual</li>
                                     </ul>
                                 </article>
                             </li>
@@ -136,17 +127,16 @@
                     <section class="partners__sec">
                         <h2 class="title title--black partners__title">Mídias</h2>
                         <p class="partners__txt">
-                            <span>A CEAP tem um ótimo destaque nas mídias. Isso é realçado principalmente em pautas relacionadas a educação, qualificação profissional, inovação, juventude e metodologias educacionais ativas.</span>
-                            <span>O trabalho de construção da marca junto à imprensa e de identificação do CEAP, e de seus parceiros, como fonte de referência de informações e de análises para reportagens, cresceu significativamente nos últimos anos, principalmente nos meios listados ao lado.</span>
-                            <span>Por esse fato, os parceiros CEAP tem grande destaque e constantemente são relacionados as grandes iniciativas de nossa instituição.</span>
+                            <span>A CEAP tem um ótimo destaque nas mídias principalmente em pautas relacionadas a educação, qualificação profissional, inovação, juventude e metodologias educacionais.</span>
+                            <span>A identificação do CEAP em reportagens, cresceu significativamente nos últimos anos.</span>
+                            <span>Nossos parceiros tem enorme visualização e estão em grandes iniciativas.</span>
                         </p>
                         <article class="partners__comps">
-                            <h3 class="partners__subtitle">Já aparecemos em:</h3>
+                            <h3 class="partners__subtitle">Duas mídias <br>que aparecemos em:</h3>
                             <img class="partners__comps-img" src="./assets/imgs/partner-globo.webp" alt="Logo da Rede Globo">
                             <svg class="partners__comps-img" viewBox="0 0 556 67" version="1.1" aria-label="Logo da Folha de São Paulo">
                                 <path aria-hidden="true" d="m 333.4496,4.0000038 c 4.15466,0 7.84768,0.308064 11.46377,1.078223 l 0,16.3273702 -3.00058,0 -2.92365,-12.01448 c -2.07733,-0.5391112 -3.30834,-0.6931432 -5.53954,-0.6931432 -5.07791,0 -7.92462,2.7725722 -7.92462,6.4693352 0,13.092705 22.00429,11.860445 22.00429,31.345475 0,10.78222 -7.84769,19.79308 -20.23472,19.79308 -5.30872,0 -9.54032,-0.69314 -12.77172,-1.84838 l 0,-16.40439 3.2314,0 2.6159,11.70642 c 2.61589,1.4633 5.61648,1.84838 8.694,1.84838 4.69322,0 7.84768,-3.3887 7.84768,-7.31651 0,-14.24794 -22.61979,-14.40197 -22.46591,-32.423692 0,-10.859241 8.07849,-17.8676882 19.0037,-17.8676882 l 0,0 z m -333.37266,3.773779 0,-2.849588 36.16089,0 0,17.7906722 -3.00058,0 -5.00098,-13.70883 -9.92501,0 0,24.028957 7.77075,0 1.76957,-7.47054 3.00059,0 0,19.56204 -3.00059,0 -1.76957,-8.00965 -7.77075,0 0,24.18299 7.15524,1.30927 0,2.77257 -25.4665,0 0,-2.77257 5.69342,-1.30927 0,-52.4478282 -5.61648,-1.078223 z m 384.92117,32.8857912 -4.77016,0 0,20.64026 6.84749,1.30927 0,2.77257 -25.08182,0 0,-2.77257 5.61648,-1.30927 0,-52.4478282 -5.53954,-1.078223 0,-2.849588 23.61999,0 c 9.92501,0 16.61862,3.850795 16.61862,17.9447042 0,10.782225 -5.4626,17.790675 -17.31106,17.790675 l 0,0 z m -4.77016,-4.00483 2.2312,0 c 4.07772,0 6.4628,-2.77257 6.4628,-13.939877 0,-11.090289 -1.69264,-13.70883 -6.30892,-13.70883 l -2.38508,0 0,27.648707 z m 134.71856,1.84838 c 0,-19.562036 8.61706,-27.18661 20.92716,-27.18661 14.07966,0 20.00389,8.702797 20.00389,27.72572 0,19.33099 -8.694,27.26363 -20.85021,27.26363 -14.15661,0 -20.08084,-8.7028 -20.08084,-27.80274 l 0,0 z m -475.3234,0.077 c 0,-19.485024 8.54012,-27.109598 20.85021,-27.109598 14.15661,0 19.85003,8.625781 19.85003,27.648708 0,19.33099 -8.54013,27.18661 -20.85022,27.18661 -14.07967,0 -19.85002,-8.62578 -19.85002,-27.72572 l 0,0 z m 137.56527,26.80153 -13.61804,0 0,-2.38749 3.92384,-1.07822 12.9256,-49.675259 6.69361,0 14.92598,49.675259 4.00079,1.07822 0,2.38749 -20.61941,0 0,-2.38749 4.77016,-1.07822 -4.15465,-12.70763 -11.23296,0 -2.92365,12.70763 5.30873,1.07822 0,2.38749 z m 235.04581,0 -14.23355,0 0,-2.38749 4.38547,-1.07822 12.9256,-49.675259 6.84749,0 14.92598,49.675259 4.46241,1.07822 0,2.38749 -21.00409,0 0,-2.38749 4.69322,-1.07822 -4.23159,-12.70763 -11.38684,0 -2.84671,12.70763 5.46261,1.07822 0,2.38749 z m -297.75034,0 -30.9291,0 0,-2.38749 4.61628,-1.07822 0,-46.209543 -4.38547,-0.847175 0,-2.464509 20.38859,0 0,2.464509 -4.770157,0.847175 0,46.055503 8.309307,0 4.38547,-12.39956 2.38508,0 0,16.01931 z m 3.15446,-50.522428 0,-2.464509 19.38839,0 0,2.464509 -3.8469,0.847175 0,21.641463 11.69459,0 0,-21.641463 -3.61609,-0.847175 0,-2.464509 18.92676,0 0,2.464509 -4.00077,0.847175 0,46.209543 4.38546,1.07822 0,2.38749 -19.31145,0 0,-2.38749 3.61609,-1.07822 0,-20.94833 -11.69459,0 0,20.94833 3.8469,1.07822 0,2.38749 -19.38839,0 0,-2.38749 4.38547,-1.07822 0,-46.055512 -4.38547,-1.001206 z M 259.8968,39.735384 c 0,18.63784 -8.694,25.64629 -19.23451,25.64629 l -20.61941,0 0,-2.38749 4.15466,-1.07822 0,-46.209543 -4.15466,-0.847175 0,-2.464509 19.54227,0 c 13.15641,0 20.31165,6.315304 20.31165,27.340647 l 0,0 z m 19.46534,22.02654 10.07888,0 4.2316,-11.78343 2.69283,0 0,15.40318 -33.23725,0 0,-2.38749 4.92404,-1.07822 0,-46.209543 -4.8471,-0.847175 0,-2.464509 31.46767,0 0,15.326167 -2.61589,0 -4.30853,-11.860452 -8.38625,0 0,21.179372 6.61667,0 1.76958,-6.54635 2.38508,0 0,17.25156 -2.38508,0 -1.76958,-7.08546 -6.61667,0 0,21.10235 z m 160.03118,-46.902678 0,-2.464509 20.31165,0 0,2.464509 -4.69322,0.847175 0,37.429723 c 0,6.93143 1.69264,10.1661 6.69362,10.1661 6.84748,0 9.00175,-4.08184 9.00175,-11.70641 l 0,-35.889413 -4.53935,-0.847175 0,-2.464509 12.23316,0 0,2.464509 -4.15466,0.847175 0,36.659563 c 0,10.32013 -5.07791,14.71004 -15.46455,14.63302 -11.9254,-0.077 -15.07986,-4.69796 -15.07986,-17.02051 l 0,-34.272073 -4.30854,-0.847175 z m 72.70648,50.522428 -30.46747,0 0,-2.38749 4.61628,-1.07822 0,-46.209543 -4.30853,-0.847175 0,-2.464509 20.31165,0 0,2.464509 -4.69322,0.847175 0,46.055503 7.61687,0 4.38547,-12.39956 2.53895,0 0,16.01931 z m 31.69849,-26.1854 c 0,-21.48744 -3.69303,-24.799124 -8.00156,-24.799124 -4.30853,0 -8.694,2.849589 -8.694,24.028964 0,21.41042 3.69302,24.87613 8.07849,24.87613 4.30853,0 8.61707,-3.08063 8.61707,-24.10597 l 0,0 z m -475.40035,0.077 c 0,-21.487434 -3.76996,-24.722102 -8.15543,-24.722102 -4.46241,0 -8.77094,2.772573 -8.77094,23.951942 0,21.41042 3.8469,24.79912 8.23237,24.79912 4.30853,0 8.694,-2.9266 8.694,-24.02896 l 0,0 z m 167.64806,22.48864 3.30834,0 c 6.23198,0 9.15563,-3.3887 9.15563,-22.71969 0,-19.716066 -3.38528,-23.181782 -9.38645,-23.181782 l -3.07752,0 0,45.901472 z m -56.16479,-33.11683 -4.23159,16.94349 9.38644,0 -5.15485,-16.94349 z m 234.96887,0 -4.15466,16.94349 9.23257,0 -5.07791,-16.94349 z m -61.70433,26.1854 c 2.8467,0 5.23179,2.54153 5.23179,5.69918 0,3.23467 -2.53896,5.77619 -5.38567,5.77619 -2.69283,0 -5.23179,-2.54152 -5.23179,-5.77619 0,-3.15765 2.69283,-5.69918 5.38567,-5.69918 l 0,0 z" />
                             </svg>
-                            <img class="partners__comps-img" src="./assets/imgs/partner-estadao.webp" alt="Logo do Estadão">
                         </article>
                     </section>
                 </div>
@@ -156,7 +146,7 @@
                 <div class="content">
                     <section>
                         <h2 class="title title--white">Conquistas</h2>
-                        <p class="subtitle subtitle--white">Com um bom trabalho ao longo dos anos, visando ser a melhor ONG com a melhor educação, conseguimos alguns feitos. Cumprimos seis objetivos do desenvolvimento sustentável da ONU.</p>
+                        <p class="subtitle subtitle--white">Com um bom trabalho, estamos cumprindo com seis objetivos do desenvolvimento sustentável da ONU.</p>
                         <ul class="achievements__onu">
                             <li>
                                 <figure class="achievements__onu-fig">
@@ -245,11 +235,6 @@
                             </li>
                             <li class="footer__list-item">
                                 <div class="footer__list-content">
-                                    <img class="footer__list-img" src="./assets/imgs/partner-samsung.webp" alt="Logo da Samsung">
-                                </div>
-                            </li>
-                            <li class="footer__list-item">
-                                <div class="footer__list-content">
                                     <img class="footer__list-img" src="./assets/imgs/partner-chevrolet.webp" alt="Logo da Chevrolet">
                                 </div>
                             </li>
@@ -260,14 +245,11 @@
             <div class="footer__card footer__card--stamp">
                 <div class="content">
                     <article>
-                        <h3 class="footer__title-content">Selos e certificações</h3>
+                        <h3 class="footer__title-content">Alguns selos e certificações</h3>
                         <ul class="footer__stamps">
-                            <li><img class="footer__stamps-img" src="./assets/imgs/stamp-doar-a-mais.webp" alt="Selo do Doar A+"></li>
-                            <li><img class="footer__stamps-img" src="./assets/imgs/stamp-ambev-voa.webp" alt="Selo da Ambev VOA"></li>
-                            <li><img class="footer__stamps-img" src="./assets/imgs/stamp-melhores-ongs-2020.webp" alt="Selo das Melhores Ongs de 2020"></li>
-                            <li><img class="footer__stamps-img" src="./assets/imgs/stamp-selo-municipal-de-direitos-humanos-e-diversidade.webp" alt="Selo municipal de direitos humanos e diversidade"></li>
-                            <li><img class="footer__stamps-img" src="./assets/imgs/stamp-melhores-ongs-2019.webp" alt="Selo das Melhores Ongs de 2019"></li>
-                            <li><img class="footer__stamps-img" src="./assets/imgs/stamp-intel-isef.webp" alt="Selo da Intel  ISEF"></li>
+                            <li class="footer__stamps-item"><img class="footer__stamps-img" src="./assets/imgs/stamp-doar-a-mais.webp" alt="Selo do Doar A+"></li>
+                            <li class="footer__stamps-item"><img class="footer__stamps-img" src="./assets/imgs/stamp-ambev-voa.webp" alt="Selo da Ambev VOA"></li>
+                            <li class="footer__stamps-item"><img class="footer__stamps-img" src="./assets/imgs/stamp-intel-isef.webp" alt="Selo da Intel  ISEF"></li>
                         </ul>
                     </article>
                 </div>
@@ -275,7 +257,7 @@
             <div class="footer__principal">
                 <div class="content footer__principal-content">
                     <div class="footer__principal-left">
-                        <img class="footer__principal-img" src="./assets/imgs/footer-logo.webp" alt="Logo da CEAP ao lado dos seus prêmios das Melhores Ongs">
+                        <img class="footer__principal-img" src="./assets/imgs/footer-logo.webp" alt="Logo do CEAP ao lado dos seus prêmios das Melhores Ongs">
                         <address class="footer__principal-address">
                             <span>
                                 Rua José Vieira Martins, 270,<br>
@@ -289,7 +271,7 @@
                         </address>
                     </div>
                     <div class="footer__principal-right">
-                        <iframe class="footer__principal-yt" src="https://www.youtube.com/embed/A-ZzfpCPl6Y" title="Vídeo Institucional do CEAP" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="footer__principal-yt" src="https://www.youtube.com/embed/A-ZzfpCPl6Y" title="Vídeo Institucional do CEAP" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe> <!-- uso do atributo title para o iframe #paratodosverem -->
                         <ul class="footer__principal-list-link">
                             <li>
                                 <a rel="noreferrer noopener" target="_blank" href="https://www.facebook.com/ceap.pedreira" aria-label="Facebook do CEAP">
